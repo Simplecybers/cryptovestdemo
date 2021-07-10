@@ -1,5 +1,5 @@
 <?php
-if (!file_exists(realpath(dirname(__FILE__)).'/ai-config.php')) {
+if (!file_exists(realpath(dirname(__FILE__)).'/ai-configsample.php')) {
 	header('Location: /installer.php');
 }
 $ACCESS_LEVEL = ACCESS_LEVEL_GUEST;
